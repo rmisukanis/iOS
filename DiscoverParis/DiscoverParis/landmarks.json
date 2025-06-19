@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Eiffel Tower",
+        "description": "An iconic symbol of Paris.",
+        "latitude": 48.8584,
+        "longitude": 2.2945
+    },
+    {
+        "id": 2,
+        "name": "Louvre Museum",
+        "description": "World's largest art museum.",
+        "latitude": 48.8606,
+        "longitude": 2.3376
+    }
+]
