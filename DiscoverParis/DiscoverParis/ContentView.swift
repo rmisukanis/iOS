@@ -28,8 +28,14 @@ struct LandmarkListView: View {
     var body: some View {
         NavigationView {
             List(landmarks) { landmark in
-                NavigationLink(destination: Text(landmark.description)) {
-                    Text(landmark.name)
+                NavigationLink(destination: LandmarkDetailView(landmark: landmark)) {
+                    HStack {
+                        Image(landmark.image)
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                        .clipShape(RoundedRectangle(cornerRadius: 8))
+                        Text(landmark.name)
+                    }
                 }
             }
             .navigationTitle("Landmarks")
@@ -60,6 +66,7 @@ struct Landmark: Identifiable, Codable {
     let description: String
     let latitude: Double
     let longitude: Double
+    let image: String
 }
 
 struct LandmarkDataService {

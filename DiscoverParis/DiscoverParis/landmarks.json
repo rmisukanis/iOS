@@ -4,13 +4,31 @@
         "name": "Eiffel Tower",
         "description": "An iconic symbol of Paris.",
         "latitude": 48.8584,
-        "longitude": 2.2945
+        "longitude": 2.2945,
+        "image": "Tour_Eiffel"
     },
     {
         "id": 2,
         "name": "Louvre Museum",
         "description": "World's largest art museum.",
         "latitude": 48.8606,
-        "longitude": 2.3376
+        "longitude": 2.3376,
+        "image": "Louvre"
+    },
+    {
+      "id": 3,
+      "name": "Arc de Triomphe",
+      "description": "A monument honoring those who fought and died for France.",
+      "latitude": 48.8738,
+      "longitude": 2.2950,
+      "image": "Arc_de_Triomphe"
+    },
+    {
+      "id": 4,
+      "name": "Palace of Versailles",
+      "description": "Former royal residence known for its opulence and history.",
+      "latitude": 48.8049,
+      "longitude": 2.1204,
+      "image": "Versailles"
     }
 ]
